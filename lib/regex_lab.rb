@@ -1,9 +1,11 @@
+require 'pry'
 def starts_with_a_vowel?(word)
   return !!word.match(/\b[aeiouAEIOU]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+  binding.pry
+  text.scan(//)
 end
 
 def words_five_letters_long(text)
